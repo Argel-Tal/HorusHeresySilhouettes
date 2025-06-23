@@ -48,7 +48,13 @@ Git is **HUGE** in the software world, so there are an enormous wealth of tutori
 0. Select the folder you made earlier as your "target directory"
 0. Create a new branch
 0. Make your changes
-0. Push your branch when you're done or the work has reached a stable milestone
+0. Save your changes
+0. Stage & Commit your changes - this is where you put them on the Git record
+0. Push your branch when you're done or the work has reached a stable milestone - this is what makes it accessible to others
 0. Once it's ready for review, create a Pull Request on GitHub, outlining your changes!!
 0. Someone will review & approve your changes, or give you suggestions to go back and fix
 0. Done! 🎉🎉
+
+!!! warning "Commit a file"
+    Git doesn't upload empty folders, you have to create a file in the folder for it to be detected. 
+    If someone hasn't created a file, there *should* be a placeholder in there.
