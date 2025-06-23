@@ -1,0 +1,58 @@
+---
+title: "R Notebook"
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. This was used to set up the initial folders for image files & seed them with a file
+
+```{r}
+## required packages
+library(stringr)
+```
+
+```{r}
+## Declear highlevel structure
+Factions <- c("Daemons", "Legions", "Mechanicum", "Militia", "Solar")
+ForceTypes <- c("Primary", "Sub_Faction_Name")
+ForceOrg <- c("1_HQ", "2_Elites", "3_Troops", "4_Fast_Attack", "5_Heavy_Support", "6_Lords_of_War", "7_Dedicated_Transport", "8_Body_Guard")
+
+folderCount <- length(Factions) * length(ForceTypes) * length(ForceOrg)
+
+folders <- seq(1:folderCount)
+```
+
+```{r}
+index = 1
+## Create folder paths for placeholder files
+for (faction in Factions) {
+  for (forceType in ForceTypes) {
+      for (slot in ForceOrg) {
+        folders[index] = (stringr::str_c(faction,"/", forceType, "/", slot))
+        index = index + 1
+    }
+  }
+}
+## reset counters 
+index = 1
+
+```
+
+
+``` {r}
+setwd(dirname(getwd()))
+
+## make some placeholder dirs
+fileContents <- "PLACEHOLDER"
+fileName <- "Placeholder.txt"
+
+for (counter in seq(1:length(folders))){
+  dirPath <- stringr::str_c("Factions/", folders[counter])
+  dir.create(file.path(getwd(), dirPath), recursive = TRUE)
+  write.table(
+    fileContents
+    , file = file.path(getwd(), dirPath, fileName)
+    , sep = "\t"
+    , row.names = FALSE
+  ) ## end file write
+} 
+
+```
