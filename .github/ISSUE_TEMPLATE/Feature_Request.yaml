@@ -1,0 +1,35 @@
+name: Change Request
+description: Lodge a feature, bug or change request for development
+title: "[Feature]: "
+assignees:
+  - @Argel-Tal
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What would you like to see?
+      description: What do you want to see?
+      placeholder: Put details here!
+      value: "Something amazing I guess!"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](.\CONTRIBUTING.md). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
