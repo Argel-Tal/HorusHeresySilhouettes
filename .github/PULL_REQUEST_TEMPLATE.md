@@ -4,7 +4,8 @@ Describe what you did. Did you close issues *(if so reference them: #(issueID))*
 
 ## Change type
 
-- [X] *Cross them out like this*
+- [X] *Tick them off like this if you did it*
+- [ ] ~~Cross them out like this if you didn't~~
 - [ ] New content
 - [ ] Removed content
 - [ ] Bug Fix
