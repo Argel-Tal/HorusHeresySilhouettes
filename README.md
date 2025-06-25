@@ -5,9 +5,9 @@ A public repository of unit silhouettes for making Horus Heresy (30k) army list 
 
 **2,500pt Solar Auxilia Crusade detachment**
 
-![Examples\CADracosan.svg](Examples\CADracosan.svg)
+![Examples/CADracosan.svg](Examples/CADracosan.svg)
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for instructions on how to contribute to this repository, and for details on how to use Git, see the resources in [LearningGit](LearningGit\Getting_started_with_Git.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for instructions on how to contribute to this repository, and for details on how to use Git, see the resources in [LearningGit](LearningGit/Getting_started_with_Git.md).
 
 ## References
 ### Repo set up
