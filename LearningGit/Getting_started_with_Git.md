@@ -2,9 +2,9 @@
 
 ## Tools
 
-You'll need to install Git, and I recommend also installing your choice of GUI which will save you from needing to write code. Personally I (author) recommend Visual Studio Code (VSCode), but there are lots of options. 
+You'll need to install Git, and I recommend also installing your choice of GUI which will save you from needing to write code. Personally I (_author_) recommend Visual Studio Code (_VSCode_), but there are lots of options. 
 
-Some of these are full Integrated Development Environments (IDE), which do ALL your programming needs, others just do the Git stuff.
+Some of these are full Integrated Development Environments (_IDE_), which do ALL your programming needs, others just do the Git stuff.
 
 - [Git - Git SCM](https://git-scm.com/)
 - [Visual Studio Code - Microsoft](https://code.visualstudio.com/)
@@ -35,7 +35,7 @@ Git is **HUGE** in the software world, so there are an enormous wealth of tutori
     $ git config --global user.name "John Doe"
     $ git config --global user.email johndoe@example.com
     ```
-0. Install VS Code (or other IDE / Git GUI)
+0. Install VS Code (_or other IDE / Git GUI_)
 0. Create a folder on your computer, relatively high in your files: 
     *i.e. a new folder within `C:` or `C:\Users\YOUR_NAME_HERE\Documents`*
 
@@ -57,4 +57,5 @@ Git is **HUGE** in the software world, so there are an enormous wealth of tutori
 
 !!! warning "Commit a file"
     Git doesn't upload empty folders, you have to create a file in the folder for it to be detected. 
+    
     If someone hasn't created a file, there *should* be a placeholder in there.
