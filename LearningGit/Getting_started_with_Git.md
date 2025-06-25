@@ -29,6 +29,10 @@ Git is **HUGE** in the software world, so there are an enormous wealth of tutori
 - [SourceTree token issues - StackOverflow](https://stackoverflow.com/questions/68191968/source-tree-fix-for-git-password-authentication-is-temporarily-disabled-as-part#:~:text=In%20Windows%2C%20go%20to%20C,you%20for%20your%20credentials%20again)
 
 ## Steps
+
+Watch the first tutorial, it's much easier than reading this stuff, and made by the professionals!!
+
+### First time set up
 0. Install Git
 0. Set up your profile - **this will be public**
     ```powershell
@@ -39,13 +43,14 @@ Git is **HUGE** in the software world, so there are an enormous wealth of tutori
 0. Create a folder on your computer, relatively high in your files: 
     *i.e. a new folder within `C:` or `C:\Users\YOUR_NAME_HERE\Documents`*
 
-    !!! tip "Long filepaths"
-    
-        Most computers have a maximum filename length and trying to clone this repo into a long filepath like `C:\Users\YOUR_NAME\Documents\Warhammer\FunProjects\PublicStuff\HeresySilhouettes\...` will throw a wobbly once it hits 256 characters
+    Most computers have a maximum filename length and trying to clone this repo into a long filepath like `C:\Users\YOUR_NAME\Documents\Warhammer\FunProjects\PublicStuff\HeresySilhouettes\...` will throw a wobbly once it hits 256 characters
+
 0. Open the project in GitHub *(where you're reading this)*, select `Code` and then the copy icon near "Clone using this web URL"
 0. Open VS Code *(or equivalent)* and using the *Source Control* tab
 0. Select "Clone Repository" and then paste the URL you copied earlier
 0. Select the folder you made earlier as your "target directory"
+
+### Making changes
 0. Create a new branch
 0. Make your changes
 0. Save your changes
@@ -55,7 +60,8 @@ Git is **HUGE** in the software world, so there are an enormous wealth of tutori
 0. Someone will review & approve your changes, or give you suggestions to go back and fix
 0. Done! 🎉🎉
 
-!!! warning "Commit a file"
-    Git doesn't upload empty folders, you have to create a file in the folder for it to be detected. 
+## Warning: Commit a file
+
+Git doesn't upload empty folders, you have to create a file in the folder for it to be detected. 
     
-    If someone hasn't created a file, there *should* be a placeholder in there.
+If someone hasn't created a file, there *should* be a placeholder in there.
