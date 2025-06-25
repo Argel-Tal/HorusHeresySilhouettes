@@ -16,11 +16,10 @@ Factions --> Primary
 Factions --> Subfactions
 Primary --> ForceOrgSlot
 ForceOrgSlot --> UnitType
-UnitType --> Variants
 UnitType --> Presets
-Variants --> Tactical_Bolter_000
-Variants --> Tactical_Bolter_001
-Variants --> Tactical_CombiFlamer_000
+UnitType --> Tactical_Bolter_000
+UnitType --> Tactical_Bolter_001
+UnitType --> Tactical_CombiFlamer_000
 ```
 
 ## Conventions
